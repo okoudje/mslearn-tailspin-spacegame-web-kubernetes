@@ -5,7 +5,7 @@ variables:
   buildConfiguration: 'Release'
   webRepository: 'web'
   tag: '$(Build.BuildId)'
-  leaderBoardRepository: 'leaderBoard'
+  leaderBoardRepository: 'leaderboard'
   imagePullSecret: 'secret'
 
 stages:
